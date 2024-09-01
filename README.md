@@ -61,6 +61,7 @@ user browser +-------------->+ siteproxy      +-------> wikipedia
    - 下载https://github.com/liyehuicn/siteproxy/releases/tag/1.0  并导入镜像（以1panel为例）
 5. **启动 Docker 容器**：
    - 进入 `docker-node` 子目录。
+   - cd siteproxy/docker-node/
    - 执行命令：`sudo docker compose up`
 6. **访问代理服务**：
    - 现在可以通过 `https://your-proxy-domain.com/user-your-password/` 访问代理服务。请将域名和密码替换为你自己的域名和密码。
