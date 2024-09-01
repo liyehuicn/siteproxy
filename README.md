@@ -128,7 +128,7 @@ user browser +-------------->+ siteproxy      +-------> wikipedia
 1. **配置 SSL 证书和 Nginx**：
    - 配置域名对应的 SSL 证书和 Nginx，将其指向本地的 5006 端口。
 2. **克隆仓库**：
-   - 执行命令：`git clone https://github.com/liyehui/siteproxy.git`
+   - 执行命令：`git clone https://github.com/liyehuicn/siteproxy.git`
 3. **编辑配置文件**：
    - 打开并修改 `config.json` 文件，内容如下：
      ```json
