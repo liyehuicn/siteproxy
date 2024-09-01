@@ -1,6 +1,6 @@
 services:
   siteproxy:
-    image: node:21
+    image: siteproxy2:latest
     container_name: siteproxy-node
     restart: unless-stopped
     ports:
