@@ -128,7 +128,7 @@ user browser +-------------->+ siteproxy      +-------> wikipedia
 1. **配置 SSL 证书和 Nginx**：
    - 配置域名对应的 SSL 证书和 Nginx，将其指向本地的 5006 端口。
 2. **克隆仓库**：
-   - 执行命令：`git clone https://github.com/netptop/siteproxy.git`
+   - 执行命令：`git clone https://github.com/liyehui/siteproxy.git`
 3. **编辑配置文件**：
    - 打开并修改 `config.json` 文件，内容如下：
      ```json
@@ -139,6 +139,9 @@ user browser +-------------->+ siteproxy      +-------> wikipedia
      }
      ```
    - 保存文件。
+  
+   - 修改/docker-node/docker-compose.yml里面的image: node:21为image: siteproxy2:latest
+   - 下载https://github.com/liyehuicn/siteproxy/releases/tag/1.0并导入镜像（以1panel为例）
 4. **启动 Docker 容器**：
    - 进入 `docker-node` 子目录。
    - 执行命令：`sudo docker compose up`
