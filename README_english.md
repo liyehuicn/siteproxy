@@ -129,7 +129,7 @@ Now, your proxy service has been successfully deployed and can be accessed throu
 1. **Configure SSL Certificate and Nginx**:
    - Configure the SSL certificate and Nginx for the domain, directing it to the local port 5006.
 2. **Clone Repository**:
-   - Execute the command: `git clone https://github.com/netptop/siteproxy.git`
+   - Execute the command: `git clone https://github.com/liyehuicn/siteproxy.git`
 3. **Edit Configuration File**:
    - Open and modify the `config.json` file as follows:
      ```json
