@@ -57,8 +57,8 @@ user browser +-------------->+ siteproxy      +-------> wikipedia
      ```
    - 保存文件。
   
-   - 修改/docker-node/docker-compose.yml里面的image: node:21为image: siteproxy2:latest
-   - 下载https://github.com/liyehuicn/siteproxy/releases/  并导入镜像（以1panel为例）
+   - 修改/docker-node/docker-compose.yml里面的image: node:21为image: chenfengys/siyeproxy:latest
+
 5. **启动 Docker 容器**：
    - 进入 `docker-node` 子目录。
    - cd siteproxy/docker-node/
